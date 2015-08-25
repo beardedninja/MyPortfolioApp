@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:clickable="false">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/splash_title"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="32dp"/>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/spotify_text"
+            android:id="@+id/spotify_button"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/udacity_button"
+            android:layout_marginBottom="16dp"
+            android:onClick="launchApp" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/scores_text"
+            android:id="@+id/scores_button"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/udacity_button"
+            android:layout_marginBottom="16dp"
+            android:onClick="launchApp" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/library_text"
+            android:id="@+id/library_button"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/udacity_button"
+            android:layout_marginBottom="16dp"
+            android:onClick="launchApp" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/bigger_text"
+            android:id="@+id/bigger_button"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/udacity_button"
+            android:layout_marginBottom="16dp"
+            android:onClick="launchApp" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/zyx_text"
+            android:id="@+id/zyx_button"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/udacity_button"
+            android:layout_marginBottom="16dp"
+            android:onClick="launchApp" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/myownapp_text"
+            android:id="@+id/myownapp_button"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/udacity_button"
+            android:layout_marginBottom="16dp"
+            android:onClick="launchApp" />
+    </LinearLayout>
+</RelativeLayout>
